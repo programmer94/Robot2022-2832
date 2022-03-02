@@ -31,6 +31,7 @@ public class Robot extends TimedRobot {
         SmartDashboard.putData("Stick Drive", new DriveStick(swerve, controller));
         SmartDashboard.putData("Drive Forward 0.5mps", new AutoDrive(swerve, 0.5, 0));
         SmartDashboard.putData("Drive FR 0.5mps", new AutoDrive(swerve, 0.5, 0.5));
+        System.out.println("Hello world");
         SmartDashboard.putData("Reset Orientation", new ResetOrientation(swerve));
     }
 
